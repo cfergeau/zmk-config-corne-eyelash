@@ -96,8 +96,8 @@
         adjust {
             display-name = "ADJUST";
             bindings = <
-&bt BT_CLR_ALL  &trans           &trans          &trans        &out OUT_BLE  &out OUT_USB                                   &mmv MOVE_UP                     &trans           &trans           &trans           &trans           &trans  &trans
-&trans          &trans           &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &trans           &trans           &trans           &trans  &trans
+&sys_reset      &trans           &trans          &trans        &out OUT_BLE  &out OUT_USB                                   &mmv MOVE_UP                     &trans           &trans           &trans           &trans           &trans  &trans
+&bt BT_CLR      &trans           &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &trans           &trans           &trans           &trans  &trans
 &studio_unlock  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans
                                                  &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
