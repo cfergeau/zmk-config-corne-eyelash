@@ -98,5 +98,23 @@
 
             sensor-bindings = <&scroll_encoder>;
         };
+
+        navim {
+            bindings = <
+&kp GRAVE     &kp PLUS   &kp N7  &kp N8  &kp N9  &kp DOT                      &trans          &trans    &trans         &trans     &trans     &trans      &trans
+&kp ASTERISK  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp N0               &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &trans
+&kp SLASH     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp COMMA  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &trans
+                                 &trans  &trans  &trans                                       &trans    &trans         &trans
+            >;
+        };
+
+        num {
+            bindings = <
+&trans  &kp LS(N1)    &kp LS(N2)    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                    &kp BSPC          &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3      &kp N4      &kp N5                &trans  &trans    &trans  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
+&kp F1  &kp F2        &kp F3        &kp F4      &kp F5      &kp F6      &trans            &trans            &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
+                                    &trans      &trans      &trans                                          &trans      &trans      &trans
+            >;
+        };
     };
 };
