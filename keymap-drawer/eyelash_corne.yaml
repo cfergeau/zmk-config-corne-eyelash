@@ -45,7 +45,7 @@ layers:
   - NUM
   - {t: '$$mdi:keyboard-space$$', h: NAVIM}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NUM
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', h: NAVIM}
   - $$mdi:apple-keyboard-option$$
   NAVIM:
@@ -143,7 +143,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   ADJUST:
@@ -192,6 +192,6 @@ layers:
   - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: INS, type: held}
+  - INS
   - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
