@@ -87,6 +87,8 @@
 &kp SLASH     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp COMMA  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &trans
                                  &trans  &trans  &trans                                       &trans    &trans         &trans
             >;
+
+            label = "NAVIM";
         };
 
         num {
@@ -96,6 +98,8 @@
 &kp F1  &kp F2        &kp F3        &kp F4      &kp F5      &kp F6      &trans            &trans            &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
                                     &trans      &trans      &trans                                          &trans      &trans      &trans
             >;
+
+            label = "NUM";
         };
 
         adjust {
