@@ -42,13 +42,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - num
-  - {t: '$$mdi:keyboard-space$$', h: navim}
+  - NUM
+  - {t: '$$mdi:keyboard-space$$', h: NAVIM}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - num
-  - {t: '$$mdi:keyboard-return$$', h: navim}
+  - NUM
+  - {t: '$$mdi:keyboard-return$$', h: NAVIM}
   - $$mdi:apple-keyboard-option$$
-  navim:
+  NAVIM:
   - {t: '`', s: '~'}
   - +
   - {t: '7', s: '&'}
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  num:
+  NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+1, s: Sft+!}
   - {t: Sft+2, s: Sft+@}
