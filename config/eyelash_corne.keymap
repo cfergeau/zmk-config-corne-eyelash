@@ -84,7 +84,7 @@
             bindings = <
 &kp GRAVE     &kp PLUS   &kp N7  &kp N8  &kp N9  &kp DOT                      &trans          &trans    &trans         &trans     &trans     &trans      &trans
 &kp ASTERISK  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp N0               &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &trans
-&kp SLASH     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp COMMA  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &trans
+&kp SLASH     &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp COMMA  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &bootloader
                                  &trans  &trans  &trans                                       &trans    &trans         &trans
             >;
 
@@ -105,7 +105,7 @@
         adjust {
             display-name = "ADJUST";
             bindings = <
-&sys_reset      &trans           &trans          &trans        &out OUT_BLE  &out OUT_USB                                   &mmv MOVE_UP                     &trans           &trans             &trans           &trans           &trans  &kp K_SLEEP
+&bootloader     &trans           &trans          &trans        &out OUT_BLE  &out OUT_USB                                   &mmv MOVE_UP                     &trans           &trans             &trans           &trans           &trans  &kp K_SLEEP
 &bt BT_CLR      &trans           &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp K_PREVIOUS   &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT       &trans  &kp K_PLAY_PAUSE
 &studio_unlock  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans
                                                  &trans        &trans        &trans                                                                          &kp INS          &kp DEL            &trans
