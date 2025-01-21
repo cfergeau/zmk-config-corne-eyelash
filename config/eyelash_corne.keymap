@@ -24,6 +24,11 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt {
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+};
+
 / {
     behaviors {
         td0: td0 {
