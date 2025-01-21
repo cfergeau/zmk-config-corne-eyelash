@@ -42,9 +42,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-space$$', h: navim}
   - num
+  - {t: '$$mdi:keyboard-space$$', h: navim}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - num
   - {t: '$$mdi:keyboard-return$$', h: navim}
   - $$mdi:apple-keyboard-option$$
@@ -140,9 +140,9 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,9 +189,9 @@ layers:
   - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
   - {t: INS, type: held}
   - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
