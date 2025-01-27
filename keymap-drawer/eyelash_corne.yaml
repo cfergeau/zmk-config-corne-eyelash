@@ -45,8 +45,8 @@ layers:
   - NUM
   - {t: '$$mdi:keyboard-space$$', h: NAVIM}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', h: NAVIM}
+  - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - $$mdi:apple-keyboard-option$$
   NAVIM:
   - {t: '`', s: '~'}
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   ADJUST:
   - $$mdi:progress-download$$
@@ -192,6 +192,6 @@ layers:
   - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - {t: INS, type: held}
   - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
