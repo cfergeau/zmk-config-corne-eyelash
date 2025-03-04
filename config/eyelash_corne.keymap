@@ -5,6 +5,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -56,25 +58,6 @@
             #binding-cells = <0>;
             mods = <(MOD_LALT|MOD_RALT)>;
             keep-mods = <(MOD_LALT|MOD_RALT)>;
-        };
-
-        tab_grave_morph: tab_grave_morph {
-            compatible = "zmk,behavior-mod-morph";
-            label = "TAB_GRAVE_MORPH";
-            bindings = <&kp TAB>, <&kp GRAVE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LALT|MOD_LGUI)>;
-            keep-mods = <(MOD_LALT)>;
-        };
-
-        q_tab_morph: q_tab_morph {
-            compatible = "zmk,behavior-mod-morph";
-            label = "Q_TAB_MORPH";
-            bindings = <&kp Q>, <&tab_grave_morph>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
         };
     };
 
