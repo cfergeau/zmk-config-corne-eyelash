@@ -90,10 +90,10 @@
 
         navim {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans    &trans         &trans     &trans     &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &bootloader
-                        &trans  &trans  &trans                                    &trans    &trans         &trans
+&kp TAB    &kp TAB    &trans  &trans  &trans  &trans                    &trans          &trans    &trans         &trans     &trans     &trans      &trans
+&kp GRAVE  &kp GRAVE  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp BSPC    &trans
+&trans     &trans     &trans  &trans  &trans  &trans  &trans            &trans          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp DELETE  &bootloader
+                              &trans  &trans  &trans                                    &trans    &trans         &trans
             >;
 
             label = "NAVIM";
