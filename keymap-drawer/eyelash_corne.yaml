@@ -91,7 +91,7 @@ layers:
   - END
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', h: NUM, s: '~'}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -141,9 +141,9 @@ layers:
   - F11
   - F12
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   ADJUST:
