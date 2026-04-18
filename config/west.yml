@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: keebs34
+      url-base: https://github.com/keebs34
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -11,5 +13,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3-branch
       import: app/west.yml
+    - name: zmk-config-selenium
+      remote: keebs34
+      revision: main
   self:
     path: config
