@@ -3,7 +3,7 @@ id: eyelash_corne
 name: Eyelash Corne
 url: https://github.com/a741725193/zmk-new_corne
 requires:
-  - nice_nano_v2
+  - nice_nano@2.0.0
 features:
   - keys
   - display
